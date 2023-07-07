@@ -57,18 +57,54 @@ font-weight: 400;
     
 }
 .form__email {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.91);
+    background-color: #FFF;
+    padding: 6px 250px 6px 265px;
     margin: auto;
     margin-top: 53px;
 }
 .form__password {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.91);
+    background-color: #FFF;
+    padding: 6px 250px 6px 265px;
     margin: auto;
     margin-top: 56px;
 }
+.form__password[placeholder]{
+    
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+   
+}
+.form__email[placeholder]{
+   
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
 .form__submit {
+    border-radius: 8px;
+border: 0.5px solid #61B0DC;
+opacity: 0.800000011920929;
+background-color: #7FB4D3;
+color: #000;
+font-size: 24px;
+font-weight: 400;
+    padding: 16px 55px;
     margin: auto;
     margin-top: 54px;
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+.form__submit:hover{
+    transform: rotatex(360deg);
 }
 .lohin__link {
+    color: rgba(0, 0, 0, 0.77);
+font-weight: 400;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 52px;
