@@ -97,7 +97,7 @@ font-weight: 400;
     margin: auto;
     margin-top: 54px;
     cursor: pointer;
-    transition: all 0.8s ease;
+    transition: all 0.8s ease-out;
 }
 .form__submit:hover{
     transform: rotatex(360deg);
@@ -108,4 +108,8 @@ font-weight: 400;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 52px;
+}
+.lohin__link:hover{
+    color:red;
+    transition: all 0.4s ease;
 }

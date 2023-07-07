@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="register">
+            <h2 class="register__title">Registration form</h2>
+            <form class="register__form form" action="https://echo.htmlacademy.ru/courses" method="post"> 
+               <div class="form__box">
+                <label for="name">First Name</label>
+                <input type="name" name="name" required id="name" >
+                <label for="lastName"> Last Name</label>
+                <input type="text" name="lastName" required id="lastName" >
+                <label for="email">Email id</label>
+                <input type="email" name="email" id="email" required >
+                <label for="number" >Phone Number</label>
+                <input type="number" name="tel-number" id="number" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <label for="con-password">Confirm Password</label>
+                <input type="password" name="con-password" id="con-password" required >
+                <label for="gender">Gender</label>
+              <input type="text" name="gender" id="gender" required>
+               </div>
+               <button type="submit">Register</button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
