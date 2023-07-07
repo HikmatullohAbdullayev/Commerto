@@ -8,5 +8,68 @@
 
   }
  body{
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(215deg, rgba(97, 176, 220, 0.13) 0%, rgba(87, 160, 201, 0.84) 99.86%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
  }
+ a{
+    text-decoration: none;
+ }
+ button{
+    outline: unset;
+    border: unset;
+    display: block;
+ }
+ input{
+    outline: unset;
+    border: unset;
+    display: block;
+ }
+ .container{
+    max-width: 927px;
+    margin: 0  auto;
+    padding: 0 20px;
+
+ }
+
+ .login{
+    
+    border-radius: 8px;
+border: 1px solid rgba(87, 160, 201, 0.84);
+background-color: rgba(255, 255, 255, 0.80);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin-top:  208px;
+   
+    text-align: center;
+ }
+ .login__title {
+    margin-top: 35px;
+    
+    color: rgba(0, 0, 0, 0.77);
+font-size: 36px;
+font-weight: 400;
+}
+.form {
+
+    
+}
+.form__email {
+    margin: auto;
+    margin-top: 53px;
+}
+.form__password {
+    margin: auto;
+    margin-top: 56px;
+}
+.form__submit {
+    margin: auto;
+    margin-top: 54px;
+}
+.lohin__link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 52px;
+}
